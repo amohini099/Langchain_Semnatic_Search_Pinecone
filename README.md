@@ -1,5 +1,3 @@
-# Langchain_Semnatic_Search_Pinecone
-This Repository is Text Based Q&amp;A model like chat-Gpt using langchain, pinecone, semantic search
 # Creating a Document-Based System for Answering Questions with LangChain, Pinecone, and LLMs like GPT-4 and ChatGPT
 
 This article explores how to build a system that can answer questions based on documents using LangChain and Pinecone, leveraging the state-of-the-art in large language models (LLMs), such as OpenAI GPT-4 and ChatGPT.
