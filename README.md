@@ -89,8 +89,9 @@ def get_similiar_docs(query, k=2, score=False):
     similar_docs = index.similarity_search(query, k=k)
   return similar_docs
 ### 10. Question answering using LangChain and OpenAI LLM
-# model_name = "text-davinci-003"
-# model_name = "gpt-3.5-turbo"
+Following are examples of model name in Lang chain 
+model_name = "text-davinci-003"
+model_name = "gpt-3.5-turbo"
 model_name = "gpt-4"
 llm = OpenAI(model_name=model_name)
 chain = load_qa_chain(llm, chain_type="stuff")
